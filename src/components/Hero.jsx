@@ -1,5 +1,5 @@
-import React from 'react'
-import {motion} from 'framer-motion'
+// import React from 'react'
+// import {motion} from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
 
@@ -12,8 +12,8 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
         <div>
-        <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className='text-forthy'>Mauricio</span></h1>
-        <p className={`${styles.heroSubText} mt-2 text-white-100`}>A Computer Science student at Tecnológico de Monterrey. Eager to learn and connect with amazing people. 🚀 </p>
+        <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className='text-forthy'>Mauricio 🚀</span></h1>
+        <p className={`${styles.heroSubText} mt-2 text-white-100`}>A Computer Science student at Tecnológico de Monterrey. Eager to learn and connect with amazing people. </p>
         </div>
       </div>
         <ComputersCanvas/>

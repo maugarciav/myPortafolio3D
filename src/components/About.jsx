@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tilt } from 'react-tilt'
 import {motion} from 'framer-motion'
 import {styles} from  '../styles'
@@ -53,7 +52,7 @@ const About = () => {
         My journey involves mastering the intricacies of front-end development with React, bringing user interfaces to life, and diving into the back-end magic with Node.js to create robust and scalable web applications.
       </motion.p>
 
-      <div className='mt-20 flex justify-center gap-10 flex-wrap'>
+      <div className='mt-20 flex xs:justify-center gap-10 flex-wrap'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} 
             index={index}

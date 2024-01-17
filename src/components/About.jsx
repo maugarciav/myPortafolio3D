@@ -45,9 +45,12 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Aspiring Full Stack Web Developer | Passionate about React, Node, and the Art of Building Exceptional Web Experiences
-
-        My journey involves mastering the intricacies of front-end development with React, bringing user interfaces to life, and diving into the back-end magic with Node.js to create robust and scalable applications.
+        <span className='font-bold '>
+          Aspiring Full Stack Web Developer | Passionate about React, Node, and the Art of Building Exceptional Web Experiences 
+        </span>
+        <br/>
+        <br/>
+        My journey involves mastering the intricacies of front-end development with React, bringing user interfaces to life, and diving into the back-end magic with Node.js to create robust and scalable web applications.
       </motion.p>
 
       <div className='mt-20 flex justify-center gap-10 flex-wrap'>

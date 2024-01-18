@@ -9,13 +9,13 @@ import CanvasLoader from '../Loader'
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl])
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+    <Float speed={1} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={1}/>
       <directionalLight position={[0,0,0.5]}/>
       <mesh castShadow receiveShadow scale={2.8}>
         <icosahedronGeometry args={[1,1]}/>
         <meshStandardMaterial 
-          color='#fff8eb'
+          color='#fff'
           polygonOffset
         />
         <Decal

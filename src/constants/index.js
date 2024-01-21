@@ -23,12 +23,13 @@ import {
   python,
   swift,
   unity,
-  church,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   github,
+  // Experience
+  church,
+  // Projects
+  teslaclone,
+  developer,
 } from "../assets";
 
 export const navLinks = [
@@ -140,23 +141,46 @@ const experiences = [
 
 
 const projects = [
+
   {
-    name: "Car Rent",
+    name: "Tesla Page Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a responsive website replica of Tesla's official webpage using React and Tailwind CSS. This project aimed to recreate the sleek and modern design of the Tesla site while ensuring a seamless user experience across various devices",
     tags: [
       {
-        name: "react",
+        name: "React",
       },
       {
-        name: "mongodb",
-      },
-      {
-        name: "tailwind",
+        name: "Tailwind",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: teslaclone,
+    source_code_link: "https://github.com/maugarciav/tesla-clone",
+  },
+
+
+  {
+    name: "App Roberto Ruiz Obregón ",
+    description:
+      "Developed an iOS application for information management, implemented MVVM architecture with Clean Architecture principles.",
+    tags: [
+      {
+        name: "React",
+      },
+      {
+        name: "Swift",
+      },
+      {
+        name: "Express.js",
+      },
+      {
+        name: "Node.js",
+      },
+      {
+        name: "MongoDB",
+      },
+    ],
+    image: developer,
   }
 ];
 

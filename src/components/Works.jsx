@@ -7,37 +7,37 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({ project, index }) => {
-  return(
-    <motion.div 
-      variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
-    >
+  return (
+    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 15,
           scale: 1,
           speed: 10
         }}
-        className='bg-tertiary p-5 rounded-2xl  sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
-          <img 
-            src={project.image} 
-            alt={project.name} 
+          <img
+            src={project.image}
+            alt={project.name}
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div 
-              onClick={() => window.open(project.source_code_link, '_blank')}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125'
-            >
-              <img 
-                src={github}
-                alt='github'
-                className='object-contain'
-              />
+          {project.source_code_link && (
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <div
+                onClick={() => window.open(project.source_code_link, '_blank')}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125'
+              >
+                <img
+                  src={github}
+                  alt='github'
+                  className='object-contain'
+                />
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         <div className='mt-5'>
@@ -49,22 +49,22 @@ const ProjectCard = ({ project, index }) => {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-2 justify-end mt-2">
+        <div className='flex flex-wrap gap-2 justify-end mt-2'>
           {project.tags.map(tag => (
-            <p 
-              key={tag.name} 
+            <p
+              key={tag.name}
               className='text-[14px] text-secondary font-bold  flex items-center'
             >
-              <br/>
+              <br />
               {tag.name}
-
             </p>
           ))}
         </div>
       </Tilt>
     </motion.div>
-  )
-}
+  );
+};
+
 
 const Works = () => {
   return (

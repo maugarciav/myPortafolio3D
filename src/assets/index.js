@@ -33,11 +33,11 @@ import unity from "./tech/unity.png";
 
 
 // Icons for Work Experience
-import church from "./company/church.png"
+import church from "./company/church.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import teslaclone from "./teslaclone.png"
+import developer from "./developer.png"
+
 
 export {
   logo,
@@ -69,11 +69,10 @@ export {
   python,
   swift,
   unity,
+  threejs,
   // Experience
   church,
   // Projects
-  threejs,
-  carrent,
-  jobit,
-  tripguide,
+  teslaclone,
+  developer,
 };

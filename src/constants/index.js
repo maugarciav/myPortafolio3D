@@ -13,11 +13,22 @@ import {
   mongodb,
   git,
   figma,
+  c,
+  cplusplus,
+  firebase,
+  vite,
+  aws,
+  mysql,
+  postman,
+  python,
+  swift,
+  unity,
   church,
   carrent,
   jobit,
   tripguide,
   threejs,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -56,14 +67,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -92,14 +95,31 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "firebase",
+    icon: firebase,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "vite",
+    icon: vite,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
   },
 ];
+
 
 const experiences = [
   {
@@ -127,62 +147,17 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };

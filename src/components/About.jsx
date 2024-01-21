@@ -45,7 +45,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         <span className='font-bold '>
-          Aspiring Full Stack Web Developer | Passionate about React, Node, and the Art of Building Exceptional Web Experiences 
+          Aspiring full stack web developer, passionate about React, Node.js , and the art of building exceptional web experiences 
         </span>
         <br/>
         <br/>

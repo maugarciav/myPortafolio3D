@@ -30,9 +30,8 @@ const ComputerCanvas = () => {
     const handleMediaQueryChange = (event) => {
       setMobil(event.matches)
     }
-
     mediaQuery.addEventListener('change', handleMediaQueryChange)
-
+    
     return() => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange)
     }

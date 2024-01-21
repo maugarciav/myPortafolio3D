@@ -67,6 +67,5 @@ const Experience = () => {
   )
 }
 
-
 const ExperienceSectionWrapper = SectionWrapper(Experience, 'work');
 export default ExperienceSectionWrapper;

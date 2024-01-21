@@ -3,7 +3,6 @@ import { styles } from '../styles';
 import { staggerContainer } from '../utils/motion';
 
 const SectionWrapper = (Component, idName) => {
-  // Devuelve la función HOC
   return function HOC() {
     return (
       <motion.section

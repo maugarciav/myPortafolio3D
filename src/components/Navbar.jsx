@@ -2,7 +2,7 @@ import  {useState} from 'react'
 import {Link} from 'react-router-dom'
 import {styles} from '../styles'
 import { navLinks } from '../constants'
-import {logoM, menu, close} from '../assets'
+import {logo, menu, close} from '../assets'
 
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logoM} alt="Logo" className='w-10 h-10 object-contain' />
+          <img src={logo} alt="Logo" className='w-10 h-10 object-contain' />
           <p className='text-white text-[18px] font-bold cursos-pointer'>Mauricio Garcia</p>
         </Link>
         <ul className='list-non hidden sm:flex flex-row gap-10'>

@@ -207,7 +207,7 @@ const projects = [
 const personalLinks = {
   githubLink: "https://github.com/maugarciav",
   linkedInLink: "https://www.linkedin.com/in/maugarciav/",
-  resumeLink: "https://drive.google.com/file/d/1odAN3iLZQ3s21ZZP8qDIn2mrqqXHmEXh/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1KqztLJ8aMK5NdIhTZeqvJEUQO2yRAcJM/view?usp=sharing"
 };
 
 

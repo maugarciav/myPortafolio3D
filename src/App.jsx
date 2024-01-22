@@ -9,10 +9,10 @@ function App() {
             <Navbar/>
             <Hero/>
         </div>
-        <About/>
-        <Experience/>
-        <Works/>
         <div className="relative z-0">
+          <About/>
+          <Experience/>
+          <Works/>
           <Contact/>
           <StarsCanvas/>
         </div>

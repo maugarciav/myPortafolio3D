@@ -18,7 +18,7 @@ const SocialIcons = () => {
         <div
           key={index}
           onClick={() => window.open(social.link, '_blank')}
-          className="black-gradient mt-8 xs:w-8 xs:h-8 md:w-10 md:h-10  w-12 h-12 rounded-full flex justify-center items-center cursor-pointer hover:scale-125 mx-4"
+          className="black-gradient mt-8 w-8 h-8   xs:w-8 xs:h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full flex justify-center items-center cursor-pointer hover:scale-125 mx-4"
         >
           <img src={social.icon} alt={`social-icon-${index}`} className="object-contain" />
         </div>
@@ -44,8 +44,6 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
-
-
     </section>
   );
 };

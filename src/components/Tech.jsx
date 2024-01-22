@@ -9,7 +9,7 @@ const Tech = () => {
       {technologies.map(technologie => (
         <div 
           key={technologie.name}
-          className='w-28 h-28'>
+          className='w-14 h-14 xs:w-20 xs:h-20 sm:w-24 sm:h-24 xl:w-28 xl:h-28'>
             <BallCanvas icon={technologie.icon}/>
         </div>
       ))}

@@ -1,7 +1,7 @@
 import { Tilt } from 'react-tilt'
 import {motion} from 'framer-motion'
 import { styles } from '../styles'
-import {github} from '../assets'
+import {github, url} from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
@@ -24,8 +24,8 @@ const ProjectCard = ({ project, index }) => {
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          {project.source_code_link && (
-            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            {project.source_code_link && (
               <div
                 onClick={() => window.open(project.source_code_link, '_blank')}
                 className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125'
@@ -36,8 +36,21 @@ const ProjectCard = ({ project, index }) => {
                   className='object-contain'
                 />
               </div>
-            </div>
-          )}
+            )}
+
+            {project.hosted_link && (
+              <div
+                onClick={() => window.open(project.hosted_link, '_blank')}
+                className='bg-white ml-2 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125'
+              >
+                <img
+                  src={url}
+                  alt='Visit Page'
+                  className='object-contain'
+                />
+              </div>
+            )}
+          </div>
         </div>
 
         <div className='mt-5'>

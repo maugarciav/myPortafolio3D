@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import url from "./url.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -35,8 +36,10 @@ import unity from "./tech/unity.png";
 // Icons for Work Experience
 import church from "./company/church.png";
 
-import teslaclone from "./teslaclone.png"
-import developer from "./developer.png"
+import teslaclone from "./projects/teslaclone.png"
+import developer from "./projects/developer.png"
+import teaWebPage from "./projects/teaWebPage.png"
+import travelWebPage from "./projects/travelWebPage.png"
 
 
 export {
@@ -46,6 +49,7 @@ export {
   mobile,
   web,
   github,
+  url,
   menu,
   close,
   // Tech
@@ -75,4 +79,6 @@ export {
   // Projects
   teslaclone,
   developer,
+  teaWebPage,
+  travelWebPage,
 };

@@ -30,6 +30,8 @@ import {
   // Projects
   teslaclone,
   developer,
+  teaWebPage,
+  travelWebPage,
 } from "../assets";
 
 export const navLinks = [
@@ -160,7 +162,7 @@ const projects = [
 
 
   {
-    name: "App Roberto Ruiz Obregón ",
+    name: "App Roberto Ruiz Obregón",
     description:
       "Developed an iOS application for information management, implemented MVVM architecture with Clean Architecture principles.",
     tags: [
@@ -181,6 +183,46 @@ const projects = [
       },
     ],
     image: developer,
+  },
+
+  {
+    name: "Tea Web Page",
+    description:
+      "Web page that simulates a tea shop, written in HTML, CSS an little use of JavaScript. The main objective was to build a project using CSS Flexbox and CSS Grid",
+    tags: [
+      {
+        name: "HTML",
+      },
+      {
+        name: "CSS",
+      },
+      {
+        name: "JavaScript",
+      },
+    ],
+    image: teaWebPage,
+    source_code_link: "https://github.com/maugarciav/Final-Proyect-Web-Page?tab=readme-ov-file",
+    hosted_link: "https://teaproyect.netlify.app/"
+  },
+
+  {
+    name: "Travel Web Page",
+    description:
+      "Web page that simulates a travel company, where you can build your own itinerary, written in HTML, CSS and little use of JavaScript. Main objective was to use CSS Flexboc",
+    tags: [
+      {
+        name: "HTML",
+      },
+      {
+        name: "CSS",
+      },
+      {
+        name: "JavaScript",
+      },
+    ],
+    image: travelWebPage,
+    source_code_link: "https://github.com/maugarciav/Travel-html-css-proyect",
+    hosted_link: "https://travel-flexbox-proyect.netlify.app/"
   }
 ];
 

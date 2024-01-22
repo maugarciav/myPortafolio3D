@@ -3,6 +3,7 @@ import {styles} from  '../styles'
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 import { Tech } from './index'
+import { slideIn } from '../utils/motion'
 
 const About = () => {
   return (
@@ -23,8 +24,12 @@ const About = () => {
         <br/>
         My journey involves mastering the intricacies of front-end development with React, bringing user interfaces to life, and diving into the back-end magic with Node.js to create robust and scalable web applications.
       </motion.p>
-      
-      <Tech/>
+      <motion.div
+          variants={slideIn('right', 'tween', 0.2, 1)}
+          >
+          <Tech/>
+        </motion.div>  
+    
     </>
   )
 }

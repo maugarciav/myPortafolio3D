@@ -32,6 +32,7 @@ import {
   developer,
   teaWebPage,
   travelWebPage,
+  linkedIn,
 } from "../assets";
 
 export const navLinks = [
@@ -143,7 +144,6 @@ const experiences = [
 
 
 const projects = [
-
   {
     name: "Tesla Page Clone",
     description:
@@ -223,7 +223,15 @@ const projects = [
     image: travelWebPage,
     source_code_link: "https://github.com/maugarciav/Travel-html-css-proyect",
     hosted_link: "https://travel-flexbox-proyect.netlify.app/"
-  }
+  },
+
 ];
 
-export { services, technologies, experiences, projects };
+const personalLinks = {
+  githubLink: "https://github.com/maugarciav",
+  linkedInLink: "https://www.linkedin.com/in/maugarciav/",
+  resumeLink: "https://drive.google.com/file/d/1odAN3iLZQ3s21ZZP8qDIn2mrqqXHmEXh/view?usp=sharing"
+};
+
+
+export { services, technologies, experiences, projects, personalLinks };
